@@ -1,0 +1,204 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+#container {
+  width: 280px;
+  margin: 30px auto;
+}
+
+#userinfo {
+  /* width: 280px; */
+  margin: 10px;
+  /* margin-right: 10px; */
+  font-weight: bold;
+  color: #DD5861;
+  box-shadow:  2px 2px 4px -2px gray;
+}
+
+form {
+  text-align: center;
+}
+
+form #logout {
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+
+
+
+input[type=text],
+input[type=password],
+textarea {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* .btn {
+  width: 100px;
+  padding: 7px;
+  border-radius: 5px;
+  color: #fff;
+  background: #00aaff;
+  box-shadow: 0 3px 0 #0088cc;
+  cursor: pointer;
+  margin: 0 auto 15px;
+} */
+
+.btn {
+  /* line-height: 50px; */
+  margin: 10px;
+  /* height: 50px; */
+  width: 90px;
+  display: inline-block;
+  text-decoration: none;
+  border: #000;
+  border-radius: 10px;
+  background: #ffa794;
+  box-shadow: 2px 2px 4px -2px gray;
+  cursor: pointer;
+}
+
+.btnLogOut {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border: #000;
+  border-radius: 2px;
+  background: #00CED1;
+  box-shadow: 2px 2px 4px -2px gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* .btnLogOut {
+  color: blue;
+  display: inline-block;
+  text-decoration: none;
+  border: #000;
+  border-radius: 2px;
+  background: #ffc499;
+  box-shadow: 2px 2px 4px -2px gray;
+  cursor: pointer;
+} */
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btnLogOut:hover {
+  opacity: 0.7;
+}
+
+.fs12 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.err {
+  color: #ff3d00;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul > li {
+  padding: 3px 0;
+}
+
+
+/* add */
+
+/* stylesheet */
+body {
+  width: auto;
+  background: #fff0f0;
+  color: #481111ed;
+  font-family: verdana;
+}
+div {
+  width: auto;
+  background: #FADDCC;
+  margin: 10px 10px 20px 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+form{
+
+}
+
+.input {
+  margin: 20px 20px 20px 0;
+  height: 50px;
+  width: 90px;
+  display: inline-block;
+  text-decoration: none;
+  border: #000;
+  border-radius: 10px;
+  background: #ffb8a8;
+  box-shadow: 2px 2px 4px -2px gray;
+  cursor: pointer;
+}
+.input:hover {
+  opacity: 0.7;
+}
+input{
+
+  bottom: 0;
+  background-color: #fff0f0;
+}
+textarea{
+  width: 280px;
+  bottom: 0;
+  background-color: #fff0f0;
+}
+
+dl {
+  list-style: none;
+  margin-top: 5px;
+}
+.posts{
+  margin: 10px;
+}
+.postform{
+  box-shadow: 2px 2px 4px -2px gray;
+  text-align: left;
+}
+.result{
+  box-shadow: 2px 2px 4px -2px gray;
+}
+
+
+
+@media screen and (min-width:600px)  {
+  body {
+    width: auto;
+  }
+
+  div {
+    width: initial;
+  }
+
+  textarea{
+    width: 500px;
+  }
+
+}
